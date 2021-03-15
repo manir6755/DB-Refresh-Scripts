@@ -7,8 +7,8 @@ b) Advworks_DBRefresh_S_to_S -- This job will do below steps:
       --1) Advworks_Test database full backup is taken before refreshing it with Source db (Advworks) backup file
 		  --2) Extract Advworks_Test database permissions on Destination db (Advworks_Test) before refreshing  it with Source db (Advworks) backup file
 		  --3) Restore Advworks_Test database on Destination using Source backup file.
-		  --4) Re-Apply Advworks database permissions which were taken on step-2.
-		  --5) Fix Orphan Users & Drop Orphan Users on Advworks database on Destination.
+		  --4) Re-Apply Advworks_Test database permissions which were taken on step-2.
+		  --5) Fix Orphan Users database on Advworks_TEST database.
    
    
    --Job-1: 
